@@ -2,6 +2,7 @@
 
 <ul>
   {{#each model as |scientist|}}
-  <li>{{scientist}}</li>
-  {{/each}}  {{! Each helper to loop over each item in the array that is provided from model() hook and print inside an <li> element}}
+    <li>{{scientist}}</li>
+  {{/each}} {{! Each helper to loop over each item in the array that is provided from model() hook and print inside an <li> element}}
 </ul>
+{{people-list title="List of Scientists" people=model}}
